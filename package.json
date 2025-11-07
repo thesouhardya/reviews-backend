@@ -1,0 +1,18 @@
+{
+  "name": "reviews-backend",
+  "version": "1.0.0",
+  "description": "Backend API for managing reviews with Gemini AI filtering",
+  "main": "api/addReview.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --watch api/addReview.js",
+    "start": "node api/addReview.js"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.0",
+    "@supabase/supabase-js": "^2.38.0"
+  },
+  "engines": {
+    "node": "18.x"
+  }
+}
