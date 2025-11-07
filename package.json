@@ -1,1 +1,15 @@
+{
+  "name": "reviews-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Framer review form using Supabase and Google Gemini",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.44.4",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
 
